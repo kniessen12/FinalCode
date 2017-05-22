@@ -57,5 +57,19 @@ public class LoanRequest implements Serializable {
 		this.dPayment = dPayment;
 	}
 	
+	public double getIncome(){
+		return Income;
+	}
+	public void setIncome(double Income){
+		this.Income = Income;
+	}
+	public double getExpenses(){
+		return Expenses;
+	}
+	public void setExpenses(double Expenses){
+		this.Expenses = Expenses;
+	}
+	
+	
 	
 }
